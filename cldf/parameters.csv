@@ -1,0 +1,11 @@
+ID,Name,Description
+Table1,Table1,Word order type
+Table3,Table3,Relationship between whether semantic adjectives are verbs and whether they occur closer to the noun than numerals when both occur on the same side of the noun
+Table4,Table4,Relationship between whether semantic adjectives are verbs and whether they occur closer to the noun than demonstratives when both occur on the same side of the noun
+Table5,Table5,Relationship between whether a language has numeral classifiers and whether numerals occur closer to the noun than the demonstratives when both occur on the same side of the noun
+Table6,Table6,Relationship between whether a language has numeral classifiers and whether semantic adjectives occur closer to the noun than the numeral when both occur on the same side of the noun
+Table7,Table7,Relationship between whether semantic adjectives are verbs and the order of adjective and noun
+Table8,Table8,Relationship between whether the language has numeral classifiers and whether numeral and demonstrative occur on the same side of the noun
+Table9,Table9,Relationship between whether the language has numeral classifiers and whether numeral and adjective occur on the same side of the noun
+Table10,Table10,Relationship between the order of semantic adjective and noun and the order of relative clause and noun in languages where semantic adjectives are not verbs
+Table13,Table13,"Adjusted frequencies bearing on Greenberg’s Universal 18, distinguishing languages where semantic adjectives are verbs and languages where they are not verbs"

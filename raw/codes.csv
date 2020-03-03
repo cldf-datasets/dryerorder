@@ -1,59 +1,59 @@
 ID,Name,Abbr,Description,Parameter_ID
-1.1.,N-A-Num-Dem,nAND,,Table1
-1.2.,Dem-Num-A-N,DNAn,,Table1
-1.3.,Dem-N-A-Num,DnAN,,Table1
-1.4.,Dem-Num-N-A,DNnA,,Table1
-1.5.,N-A-Dem-Num,nADN,,Table1
-1.6.,Num-N-A-Dem,NnAD,,Table1
-1.7.,Dem-N-Num-A,DnNA,,Table1
-1.8.,N-Dem-A-Num,nDAN,,Table1
-1.9.,N-Num-A-Dem,nNAD,,Table1
-1.10.,N-Dem-Num-A,nDNA,,Table1
-1.11.,Dem-A-N-Num,DAnN,,Table1
-1.12.,Num-A-N-Dem,NAnD,,Table1
-1.13.,A-N-Num-Dem,AnND,,Table1
-1.14.,Num-N-Dem-A,NnDA,,Table1
-1.15.,A-N-Dem-Num,AnDN,,Table1
-1.16.,Dem-A-Num-N,DANn,,Table1
-1.17.,Num-Dem-A-N,NDAn,,Table1
-1.18.,N-Num-Dem-A,nNDA,,Table1
-4.1.,Adj is verb & Adj closer to noun than Num,,"Semantic adjectives are verbs, adjective is closer to noun than numeral (both occur on the same side of the noun)",Table3
-4.2.,Adj is verb & Adj further from noun than Num,,"Semantic adjectives are verbs, numeral is closer to noun than adjective (both occur on the same side of the noun)",Table3
-4.3.,Adj is not verb & Adj closer to noun than Num,,"Semantic adjectives are not verbs, adjective is closer to noun than numeral (both occur on the same side of the noun)",Table3
-4.4.,Adj is not verb & Adj further from noun than Num,,"Semantic adjectives are not verbs, numeral is closer to noun than adjective (both occur on the same side of the noun)",Table3
-5.1.,Adj is verb & Adj closer to noun than Dem,,"Semantic adjectives are verbs, adjective is closer to noun than demonstrative (both occur on the same side of the noun)",Table4
-5.2.,Adj is verb & Adj further from noun than Dem,,"Semantic adjectives are verbs, demonstrative is closer to noun than adjective (both occur on the same side of the noun)",Table4
-5.3.,Adj is not verb & Adj closer to noun than Dem,,"Semantic adjectives are not verbs, adjective is closer to noun than demonstrative (both occur on the same side of the noun)",Table4
-5.4.,Adj is not verb & Adj further from noun than Dem,,"Semantic adjectives are not verbs, demonstrative is closer to noun than adjective (both occur on the same side of the noun)",Table4
-6.1.,Lg has numeral classifiers & Num closer to noun than Dem,,"Has numeral classifiers, numeral is closer to noun than demonstrative (both occur on the same side of the noun)",Table5
-6.2.,Lg has numeral classifiers & Num further from noun than Dem,,"Has numeral classifiers, demonstrative is closer to noun than numeral (both occur on the same side of the noun)",Table5
-6.3.,Lg lacks numeral classifiers & Num closer to noun than Dem,,"Lacks numeral classifiers, numeral is closer to noun than demonstrative (both occur on the same side of the noun)",Table5
-6.4.,Lg lacks numeral classifiers & Num further from noun than Dem,,"Lacks numeral classifiers, demonstrative is closer to noun than numeral (both occur on the same side of the noun)",Table5
-7.1.,Lg has numeral classifiers & Adj closer to noun than Num,,"Has numeral classifiers, adjective is closer to noun than numeral (both occur on the same side of the noun)",Table6
-7.2.,Lg has numeral classifiers & Adj further from noun than Num,,"Has numeral classifiers, numeral is closer to noun than adjective (both occur on the same side of the noun)",Table6
-7.3.,Lg lacks numeral classifiers & Adj closer to noun than Num,,"Lacks numeral classifiers, adjective is closer to noun than numeral (both occur on the same side of the noun)",Table6
-7.4.,Lg lacks numeral classifiers & Adj further from noun than Num,,"Lacks numeral classifiers, numeral is closer to noun than adjective (both occur on the same side of the noun)",Table6
-8.1.,Adj is verb & AdjN,,Semantic adjective is verb and precedes noun,Table7
-8.2.,Adj is verb & NAdj,,Semantic adjective is verb and follows noun,Table7
-8.3.,Adj is not verb & AdjN,,Semantic adjective is not verb and precedes noun,Table7
-8.4.,Adj is not verb & NAdj,,Semantic adjective is not verb and follows noun,Table7
-9.1.,Lg has numeral classifiers & Num and Dem occur on same side of noun,,"Has numeral classifiers, numeral and demonstrative occur on same side of noun",Table8
-9.2.,Lg has numeral classifiers & Num and Dem occur on different sides of noun,,"Has numeral classifiers, numeral and demonstrative occur on opposite side of noun",Table8
-9.3.,Lg lacks numeral classifiers & Num and Dem occur on same side of noun,,"Lacks numeral classifiers, numeral and demonstrative occur on same side of noun",Table8
-9.4.,Lg lacks numeral classifiers & Num and Dem occur on different sides of noun,,"Lacks numeral classifiers, numeral and demonstrative on different sides of noun",Table8
-10.1.,Lg has numeral classifiers & Num and Adj occur on same side of noun,,Language has numeral classifiers and adjective and numeral occur on same side of noun,Table9
-10.2.,Lg has numeral classifiers & Num and Adj occur on different sides of noun,,Language has numeral classifiers and adjective and numeral occur on opposite sides of noun,Table9
-10.3.,Lg lacks numeral classifiers & Num and Adj occur on same side of noun,,Language lacks numeral classifiers and adjective and numeral occur on same side of noun,Table9
-10.4.,Lg lacks numeral classifiers & Num and Adj occur on different sides of noun,,Language lacks numeral classifiers and adjective and numeral occur on opposite sides of noun,Table9
-11.1.,Adjs are not verbs & RelN & AdjN,,Semantic adjective and relative clause both precede noun (and semantic adjective is not a verb),Table10
-11.2.,Adjs are not verbs & RelN & NAdj,,Semantic adjective follows noun and relative clause precedes noun (and semantic adjective is not a verb),Table10
-11.3.,Adjs are not verbs & NRel & AdjN,,Semantic adjective precedes noun and relative clause follows noun (and semantic adjective is not a verb),Table10
-11.4.,Adjs are not verbs & NRel & NAdj,,Semantic adjective and relative clause both follow noun (and semantic adjective is not a verb),Table10
-12.1.,Adj is verb & AdjN & NumN,,"Semantic adjective is verb, adjective and numeral both precede noun",Table13
-12.2.,Adj is verb & AdjN & NNum,,"Semantic adjective is verb, adjective precedes noun, and numeral follows noun",Table13
-12.3.,Adj is verb & NAdj & NumN,,"Semantic adjective is verb, adjective follows noun, and numeral precedes noun",Table13
-12.4.,Adj is verb & NAdj & NNum,,"Semantic adjective is verb, adjective and numeral both follow noun",Table13
-12.5.,Adj is not verb & AdjN & NumN,,"Semantic adjective not verb, adjective and numeral both precede noun",Table13
-12.6.,Adj is not verb & AdjN & NNum,,"Semantic adjective not verb, adjective precedes noun, and numeral follows noun",Table13
-12.7.,Adj is not verb & NAdj & NumN,,"Semantic adjective not verb, adjective follows noun, and numeral precedes noun",Table13
-12.8.,Adj is not verb & NAdj & NNum,,"Semantic adjective not verb, adjective and numeral both follow noun",Table13
+1-1,N-A-Num-Dem,nAND,,Table1
+1-2,Dem-Num-A-N,DNAn,,Table1
+1-3,Dem-N-A-Num,DnAN,,Table1
+1-4,Dem-Num-N-A,DNnA,,Table1
+1-5,N-A-Dem-Num,nADN,,Table1
+1-6,Num-N-A-Dem,NnAD,,Table1
+1-7,Dem-N-Num-A,DnNA,,Table1
+1-8,N-Dem-A-Num,nDAN,,Table1
+1-9,N-Num-A-Dem,nNAD,,Table1
+1-10,N-Dem-Num-A,nDNA,,Table1
+1-11,Dem-A-N-Num,DAnN,,Table1
+1-12,Num-A-N-Dem,NAnD,,Table1
+1-13,A-N-Num-Dem,AnND,,Table1
+1-14,Num-N-Dem-A,NnDA,,Table1
+1-15,A-N-Dem-Num,AnDN,,Table1
+1-16,Dem-A-Num-N,DANn,,Table1
+1-17,Num-Dem-A-N,NDAn,,Table1
+1-18,N-Num-Dem-A,nNDA,,Table1
+4-1,Adj is verb & Adj closer to noun than Num,,"Semantic adjectives are verbs, adjective is closer to noun than numeral (both occur on the same side of the noun)",Table3
+4-2,Adj is verb & Adj further from noun than Num,,"Semantic adjectives are verbs, numeral is closer to noun than adjective (both occur on the same side of the noun)",Table3
+4-3,Adj is not verb & Adj closer to noun than Num,,"Semantic adjectives are not verbs, adjective is closer to noun than numeral (both occur on the same side of the noun)",Table3
+4-4,Adj is not verb & Adj further from noun than Num,,"Semantic adjectives are not verbs, numeral is closer to noun than adjective (both occur on the same side of the noun)",Table3
+5-1,Adj is verb & Adj closer to noun than Dem,,"Semantic adjectives are verbs, adjective is closer to noun than demonstrative (both occur on the same side of the noun)",Table4
+5-2,Adj is verb & Adj further from noun than Dem,,"Semantic adjectives are verbs, demonstrative is closer to noun than adjective (both occur on the same side of the noun)",Table4
+5-3,Adj is not verb & Adj closer to noun than Dem,,"Semantic adjectives are not verbs, adjective is closer to noun than demonstrative (both occur on the same side of the noun)",Table4
+5-4,Adj is not verb & Adj further from noun than Dem,,"Semantic adjectives are not verbs, demonstrative is closer to noun than adjective (both occur on the same side of the noun)",Table4
+6-1,Lg has numeral classifiers & Num closer to noun than Dem,,"Has numeral classifiers, numeral is closer to noun than demonstrative (both occur on the same side of the noun)",Table5
+6-2,Lg has numeral classifiers & Num further from noun than Dem,,"Has numeral classifiers, demonstrative is closer to noun than numeral (both occur on the same side of the noun)",Table5
+6-3,Lg lacks numeral classifiers & Num closer to noun than Dem,,"Lacks numeral classifiers, numeral is closer to noun than demonstrative (both occur on the same side of the noun)",Table5
+6-4,Lg lacks numeral classifiers & Num further from noun than Dem,,"Lacks numeral classifiers, demonstrative is closer to noun than numeral (both occur on the same side of the noun)",Table5
+7-1,Lg has numeral classifiers & Adj closer to noun than Num,,"Has numeral classifiers, adjective is closer to noun than numeral (both occur on the same side of the noun)",Table6
+7-2,Lg has numeral classifiers & Adj further from noun than Num,,"Has numeral classifiers, numeral is closer to noun than adjective (both occur on the same side of the noun)",Table6
+7-3,Lg lacks numeral classifiers & Adj closer to noun than Num,,"Lacks numeral classifiers, adjective is closer to noun than numeral (both occur on the same side of the noun)",Table6
+7-4,Lg lacks numeral classifiers & Adj further from noun than Num,,"Lacks numeral classifiers, numeral is closer to noun than adjective (both occur on the same side of the noun)",Table6
+8-1,Adj is verb & AdjN,,Semantic adjective is verb and precedes noun,Table7
+8-2,Adj is verb & NAdj,,Semantic adjective is verb and follows noun,Table7
+8-3,Adj is not verb & AdjN,,Semantic adjective is not verb and precedes noun,Table7
+8-4,Adj is not verb & NAdj,,Semantic adjective is not verb and follows noun,Table7
+9-1,Lg has numeral classifiers & Num and Dem occur on same side of noun,,"Has numeral classifiers, numeral and demonstrative occur on same side of noun",Table8
+9-2,Lg has numeral classifiers & Num and Dem occur on different sides of noun,,"Has numeral classifiers, numeral and demonstrative occur on opposite side of noun",Table8
+9-3,Lg lacks numeral classifiers & Num and Dem occur on same side of noun,,"Lacks numeral classifiers, numeral and demonstrative occur on same side of noun",Table8
+9-4,Lg lacks numeral classifiers & Num and Dem occur on different sides of noun,,"Lacks numeral classifiers, numeral and demonstrative on different sides of noun",Table8
+10-1,Lg has numeral classifiers & Num and Adj occur on same side of noun,,Language has numeral classifiers and adjective and numeral occur on same side of noun,Table9
+10-2,Lg has numeral classifiers & Num and Adj occur on different sides of noun,,Language has numeral classifiers and adjective and numeral occur on opposite sides of noun,Table9
+10-3,Lg lacks numeral classifiers & Num and Adj occur on same side of noun,,Language lacks numeral classifiers and adjective and numeral occur on same side of noun,Table9
+10-4,Lg lacks numeral classifiers & Num and Adj occur on different sides of noun,,Language lacks numeral classifiers and adjective and numeral occur on opposite sides of noun,Table9
+11-1,Adjs are not verbs & RelN & AdjN,,Semantic adjective and relative clause both precede noun (and semantic adjective is not a verb),Table10
+11-2,Adjs are not verbs & RelN & NAdj,,Semantic adjective follows noun and relative clause precedes noun (and semantic adjective is not a verb),Table10
+11-3,Adjs are not verbs & NRel & AdjN,,Semantic adjective precedes noun and relative clause follows noun (and semantic adjective is not a verb),Table10
+11-4,Adjs are not verbs & NRel & NAdj,,Semantic adjective and relative clause both follow noun (and semantic adjective is not a verb),Table10
+12-1,Adj is verb & AdjN & NumN,,"Semantic adjective is verb, adjective and numeral both precede noun",Table13
+12-2,Adj is verb & AdjN & NNum,,"Semantic adjective is verb, adjective precedes noun, and numeral follows noun",Table13
+12-3,Adj is verb & NAdj & NumN,,"Semantic adjective is verb, adjective follows noun, and numeral precedes noun",Table13
+12-4,Adj is verb & NAdj & NNum,,"Semantic adjective is verb, adjective and numeral both follow noun",Table13
+12-5,Adj is not verb & AdjN & NumN,,"Semantic adjective not verb, adjective and numeral both precede noun",Table13
+12-6,Adj is not verb & AdjN & NNum,,"Semantic adjective not verb, adjective precedes noun, and numeral follows noun",Table13
+12-7,Adj is not verb & NAdj & NumN,,"Semantic adjective not verb, adjective follows noun, and numeral precedes noun",Table13
+12-8,Adj is not verb & NAdj & NNum,,"Semantic adjective not verb, adjective and numeral both follow noun",Table13
