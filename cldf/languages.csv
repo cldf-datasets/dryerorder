@@ -1,5 +1,5 @@
 ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Genus,Family
-nuukingh,N|Uuki,,-29.716666666666665,19.083333333333332,nuuu1241,ngh,Tuu,Tuu
+nuukingh,N|Uuki,,-29.716666666666665,19.083333333333332,nngg1234,ngh,Tuu,Tuu
 hoanhuc,=|Hoan,,-25.5,25.0,hoaa1235,huc,=|Hoan,Kxa
 juhoanknw,Ju|'hoan,,-19.0,21.0,kung1261,knw,Ju-Kung,Kxa
 koranakqz,Korana,,-29.5,20.5,kora1292,kqz,Khoe-Kwadi,Khoe-Kwadi
@@ -340,7 +340,7 @@ finnishfin,Finnish,,62.0,25.0,finn1318,fin,Finnic,Uralic
 estonianekk,Estonian,,59.0,26.0,esto1258,ekk,Finnic,Uralic
 yukaghirkolymayux,Yukaghir (Kolyma),,65.75,150.83333333333334,sout2750,yux,Yukaghir,Yukaghir
 dagurdta,Dagur,,48.0,124.0,daur1238,dta,Mongolic,Altaic
-mangghuermjg,Mangghuer,,36.0,102.0,tuuu1240,mjg,Mongolic,Altaic
+mangghuermjg,Mangghuer,,36.0,102.0,huzh1238,mjg,Mongolic,Altaic
 baoanpeh,Bao'an,,35.583333333333336,102.0,bona1250,peh,Mongolic,Altaic
 santasce,Santa,,31.5,107.5,dong1285,sce,Mongolic,Altaic
 kalmykxal,Kalmyk,,44.0,83.0,kalm1243,xal,Mongolic,Altaic
@@ -381,7 +381,7 @@ rutulrut,Rutul,,41.5,47.416666666666664,rutu1240,rut,Lezgic,Nakh-Daghestanian
 tsakhurtkr,Tsakhur,,41.666666666666664,47.166666666666664,tsak1249,tkr,Lezgic,Nakh-Daghestanian
 burushaskibsk,Burushaski,,36.5,74.5,buru1296,bsk,Burushaski,Burushaski
 brahuibrh,Brahui,,28.5,67.0,brah1256,brh,Northern Dravidian,Dravidian
-kurukhkru,Kurukh,,22.833333333333332,85.5,kuru1302,kru,Northern Dravidian,Dravidian
+kurukhkru,Kurukh,,22.833333333333332,85.5,kuru1301,kru,Northern Dravidian,Dravidian
 maltomjt,Malto,,25.0,87.33333333333333,saur1249,mjt,Northern Dravidian,Dravidian
 kolamikfb,Kolami,,20.0,78.5,nort2699,kfb,Central Dravidian,Dravidian
 gondigno,Gondi,,19.0,81.0,nort2702,gno,South-Central Dravidian,Dravidian
@@ -789,7 +789,7 @@ skouskv,Skou,,-2.5833333333333335,140.91666666666666,nucl1634,skv,Western Skou,S
 wutungwut,Wutung,,-2.6666666666666665,141.08333333333334,wutu1244,wut,Western Skou,Skou
 isakaksi,I'saka,,-2.8333333333333335,141.28333333333333,kris1246,ksi,Krisa,Skou
 pokoraworwa,Poko-Rawo,,-2.8333333333333335,141.58333333333334,rawo1244,rwa,Serra Hills,Skou
-barupuwra,Barupu,,-3.0833333333333335,142.08333333333334,wara1302,wra,Warapu,Skou
+barupuwra,Barupu,,-3.0833333333333335,142.08333333333334,,wra,Warapu,Skou
 meyahmej,Meyah,,-0.5,133.5,meya1236,mej,East Bird's Head,East Bird's Head
 moskonamtj,Moskona,,-1.5,133.0,mosk1236,mtj,East Bird's Head,East Bird's Head
 urimuri,Urim,,-3.5833333333333335,142.66666666666666,urim1252,uri,Urim,Torricelli
