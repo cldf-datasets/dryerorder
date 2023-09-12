@@ -47,11 +47,17 @@ class Dataset(BaseDataset):
         args.writer.cldf.add_component('CodeTable')
         args.writer.cldf.add_sources(parse_string(self.raw_dir.read('sources.bib'), 'bibtex'))
 
+        etc_parameters = {
+            parameter['ID']: parameter
+            for parameter in self.etc_dir.read_csv(
+                'parameters.csv', dicts=True)}
         for row in self.raw_dir.read_csv('parameters.csv', dicts=True):
+            parameter_id = row['ID']
+            etc_parameter = etc_parameters.get(parameter_id) or {}
             args.writer.objects['ParameterTable'].append(dict(
                 ID=row['ID'],
-                Name=row['ID'],
-                Description=row['Description'],
+                Name=etc_parameter.get('Name') or row['ID'],
+                Description=etc_parameter.get('Description') or row['Description'],
             ))
 
         codes = collections.defaultdict(dict)
