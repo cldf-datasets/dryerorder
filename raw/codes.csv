@@ -1,59 +1,59 @@
-ID,Name,Abbr,Map_Colour,Map_Icon,Description,Parameter_ID,,
-1-1,N-A-Num-Dem,nAND,purple,c990099,,Table1,,
-1-2,Dem-Num-A-N,DNAn,yellow,cffff00,,Table1,,
-1-3,Dem-N-A-Num,DnAN,yellow d,dffff00,,Table1,,
-1-4,Dem-Num-N-A,DNnA,yellow s,sffff00,,Table1,,
-1-5,N-A-Dem-Num,nADN,purple d,d990099,,Table1,,
-1-6,Num-N-A-Dem,NnAD,purple s,s990099,,Table1,,
-1-7,Dem-N-Num-A,DnNA,orange,cff6600,,Table1,,
-1-8,N-Dem-A-Num,nDAN,blue,c0000dd,,Table1,,
-1-9,N-Num-A-Dem,nNAD,blue d,d0000dd,,Table1,,
-1-10,N-Dem-Num-A,nDNA,blue s,s0000dd,,Table1,,
-1-11,Dem-A-N-Num,DAnN,orange d,dff6600,,Table1,,
-1-12,Num-A-N-Dem,NAnD,black,c000000,,Table1,,
-1-13,A-N-Num-Dem,AnND,black d,d000000,,Table1,,
-1-14,Num-N-Dem-A,NnDA,black s,s000000,,Table1,,
-1-15,A-N-Dem-Num,AnDN,grey,ccccccc,,Table1,,
-1-16,Dem-A-Num-N,DANn,orange s,sff6600,,Table1,,
-1-17,Num-Dem-A-N,NDAn,white,cffffff,,Table1,,
-1-18,N-Num-Dem-A,nNDA,grey d,dcccccc,,Table1,,
-4-1,Adj is verb & Adj closer to noun than Num,,blue,c0000dd,Semantic adjectives are verbs, adjective is closer to noun than numeral (both occur on the same side of the noun),Table3,
-4-2,Adj is verb & Adj further from noun than Num,,red,cdd0000,cdd0000,Semantic adjectives are verbs, numeral is closer to noun than adjective (both occur on the same side of the noun),Table3
-4-3,Adj is not verb & Adj closer to noun than Num,,blue d,d0000dd,Semantic adjectives are not verbs, adjective is closer to noun than numeral (both occur on the same side of the noun),Table3,
-4-4,Adj is not verb & Adj further from noun than Num,,red d,ddd0000,Semantic adjectives are not verbs, numeral is closer to noun than adjective (both occur on the same side of the noun),Table3,
-5-1,Adj is verb & Adj closer to noun than Dem,,blue,c0000dd,Semantic adjectives are verbs, adjective is closer to noun than demonstrative (both occur on the same side of the noun),Table4,
-5-2,Adj is verb & Adj further from noun than Dem,,red,cdd0000,cdd0000,Semantic adjectives are verbs, demonstrative is closer to noun than adjective (both occur on the same side of the noun),Table4
-5-3,Adj is not verb & Adj closer to noun than Dem,,blue d,d0000dd,Semantic adjectives are not verbs, adjective is closer to noun than demonstrative (both occur on the same side of the noun),Table4,
-5-4,Adj is not verb & Adj further from noun than Dem,,red d,ddd0000,Semantic adjectives are not verbs, demonstrative is closer to noun than adjective (both occur on the same side of the noun),Table4,
-6-1,Lg has numeral classifiers & Num closer to noun than Dem,,green s,s009900,Has numeral classifiers, numeral is closer to noun than demonstrative (both occur on the same side of the noun),Table5,
-6-2,Lg has numeral classifiers & Num further from noun than Dem,,yellow s,sffff00,Has numeral classifiers, demonstrative is closer to noun than numeral (both occur on the same side of the noun),Table5,
-6-3,Lg lacks numeral classifiers & Num closer to noun than Dem,,green,c009900,Lacks numeral classifiers, numeral is closer to noun than demonstrative (both occur on the same side of the noun),Table5,
-6-4,Lg lacks numeral classifiers & Num further from noun than Dem,,yellow,cffff00,Lacks numeral classifiers, demonstrative is closer to noun than numeral (both occur on the same side of the noun),Table5,
-7-1,Lg has numeral classifiers & Adj closer to noun than Num,,green s,s009900,Has numeral classifiers, adjective is closer to noun than numeral (both occur on the same side of the noun),Table6,
-7-2,Lg has numeral classifiers & Adj further from noun than Num,,yellow s,sffff00,Has numeral classifiers, numeral is closer to noun than adjective (both occur on the same side of the noun),Table6,
-7-3,Lg lacks numeral classifiers & Adj closer to noun than Num,,green,c009900,Lacks numeral classifiers, adjective is closer to noun than numeral (both occur on the same side of the noun),Table6,
-7-4,Lg lacks numeral classifiers & Adj further from noun than Num,,yellow,cffff00,Lacks numeral classifiers, numeral is closer to noun than adjective (both occur on the same side of the noun),Table6,
-8-1,Adj is verb & AdjN,,yellow ,cffff00,Semantic adjective is verb and precedes noun,Table7,,
-8-2,Adj is verb & NAdj,,purple ,c990099,Semantic adjective is verb and follows noun,Table7,,
-8-3,Adj is not verb & AdjN,,yellow d,dffff00,Semantic adjective is not verb and precedes noun,Table7,,
-8-4,Adj is not verb & NAdj,,purple d,d990099,Semantic adjective is not verb and follows noun,Table7,,
-9-1,Lg has numeral classifiers & Num and Dem occur on same side of noun,,green s,s009900,Has numeral classifiers, numeral and demonstrative occur on same side of noun,Table8,
-9-2,Lg has numeral classifiers & Num and Dem occur on different sides of noun,,yellow s,sffff00,Has numeral classifiers, numeral and demonstrative occur on opposite side of noun,Table8,
-9-3,Lg lacks numeral classifiers & Num and Dem occur on same side of noun,,green,c009900,Lacks numeral classifiers, numeral and demonstrative occur on same side of noun,Table8,
-9-4,Lg lacks numeral classifiers & Num and Dem occur on different sides of noun,,yellow,cffff00,Lacks numeral classifiers, numeral and demonstrative on different sides of noun,Table8,
-10-1,Lg has numeral classifiers & Num and Adj occur on same side of noun,,green s,s009900,Language has numeral classifiers and adjective and numeral occur on same side of noun,Table9,,
-10-2,Lg has numeral classifiers & Num and Adj occur on different sides of noun,,yellow s,sffff00,Language has numeral classifiers and adjective and numeral occur on opposite sides of noun,Table9,,
-10-3,Lg lacks numeral classifiers & Num and Adj occur on same side of noun,,green,c009900,Language lacks numeral classifiers and adjective and numeral occur on same side of noun,Table9,,
-10-4,Lg lacks numeral classifiers & Num and Adj occur on different sides of noun,,yellow,cffff00,Language lacks numeral classifiers and adjective and numeral occur on opposite sides of noun,Table9,,
-11-1,Adjs are not verbs & RelN & AdjN,,yellow d,dffff00,Semantic adjective and relative clause both precede noun (and semantic adjective is not a verb),Table10,,
-11-2,Adjs are not verbs & RelN & NAdj,,blue d,d0000dd,Semantic adjective follows noun and relative clause precedes noun (and semantic adjective is not a verb),Table10,,
-11-3,Adjs are not verbs & NRel & AdjN,,orange d,dff6600,Semantic adjective precedes noun and relative clause follows noun (and semantic adjective is not a verb),Table10,,
-11-4,Adjs are not verbs & NRel & NAdj,,purple d,d990099,Semantic adjective and relative clause both follow noun (and semantic adjective is not a verb),Table10,,
-12-1,Adj is verb & AdjN & NumN,,yellow ,cffff00,Semantic adjective is verb, adjective and numeral both precede noun,Table13,
-12-2,Adj is verb & AdjN & NNum,,orange,cff6600,Semantic adjective is verb, adjective precedes noun, and numeral follows noun,Table13
-12-3,Adj is verb & NAdj & NumN,,blue,c0000dd,Semantic adjective is verb, adjective follows noun, and numeral precedes noun,Table13
-12-4,Adj is verb & NAdj & NNum,,purple ,c990099,Semantic adjective is verb, adjective and numeral both follow noun,Table13,
-12-5,Adj is not verb & AdjN & NumN,,yellow d,dffff00,Semantic adjective not verb, adjective and numeral both precede noun,Table13,
-12-6,Adj is not verb & AdjN & NNum,,orange d,dff6600,Semantic adjective not verb, adjective precedes noun, and numeral follows noun,Table13
-12-7,Adj is not verb & NAdj & NumN,,blue d,d0000dd,Semantic adjective not verb, adjective follows noun, and numeral precedes noun,Table13
-12-8,Adj is not verb & NAdj & NNum,,purple d,d990099,Semantic adjective not verb, adjective and numeral both follow noun,Table13,
+ID,Name,Abbr,Map_Colour,Map_Icon,Description,Parameter_ID
+1-1,N-A-Num-Dem,nAND,purple,c990099,,Table1
+1-2,Dem-Num-A-N,DNAn,yellow,cffff00,,Table1
+1-3,Dem-N-A-Num,DnAN,yellow d,dffff00,,Table1
+1-4,Dem-Num-N-A,DNnA,yellow s,sffff00,,Table1
+1-5,N-A-Dem-Num,nADN,purple d,d990099,,Table1
+1-6,Num-N-A-Dem,NnAD,purple s,s990099,,Table1
+1-7,Dem-N-Num-A,DnNA,orange,cff6600,,Table1
+1-8,N-Dem-A-Num,nDAN,blue,c0000dd,,Table1
+1-9,N-Num-A-Dem,nNAD,blue d,d0000dd,,Table1
+1-10,N-Dem-Num-A,nDNA,blue s,s0000dd,,Table1
+1-11,Dem-A-N-Num,DAnN,orange d,dff6600,,Table1
+1-12,Num-A-N-Dem,NAnD,black,c000000,,Table1
+1-13,A-N-Num-Dem,AnND,black d,d000000,,Table1
+1-14,Num-N-Dem-A,NnDA,black s,s000000,,Table1
+1-15,A-N-Dem-Num,AnDN,grey,ccccccc,,Table1
+1-16,Dem-A-Num-N,DANn,orange s,sff6600,,Table1
+1-17,Num-Dem-A-N,NDAn,white,cffffff,,Table1
+1-18,N-Num-Dem-A,nNDA,grey d,dcccccc,,Table1
+4-1,Adj is verb & Adj closer to noun than Num,,blue,c0000dd,Semantic adjectives are verbs; adjective is closer to noun than numeral (both occur on the same side of the noun),Table3
+4-2,Adj is verb & Adj further from noun than Num,,red,cdd0000,Semantic adjectives are verbs; numeral is closer to noun than adjective (both occur on the same side of the noun),Table3
+4-3,Adj is not verb & Adj closer to noun than Num,,blue d,d0000dd,Semantic adjectives are not verbs; adjective is closer to noun than numeral (both occur on the same side of the noun),Table3
+4-4,Adj is not verb & Adj further from noun than Num,,red d,ddd0000,Semantic adjectives are not verbs; numeral is closer to noun than adjective (both occur on the same side of the noun),Table3
+5-1,Adj is verb & Adj closer to noun than Dem,,blue,c0000dd,Semantic adjectives are verbs; adjective is closer to noun than demonstrative (both occur on the same side of the noun),Table4
+5-2,Adj is verb & Adj further from noun than Dem,,red,cdd0000,Semantic adjectives are verbs; demonstrative is closer to noun than adjective (both occur on the same side of the noun),Table4
+5-3,Adj is not verb & Adj closer to noun than Dem,,blue d,d0000dd,Semantic adjectives are not verbs; adjective is closer to noun than demonstrative (both occur on the same side of the noun),Table4
+5-4,Adj is not verb & Adj further from noun than Dem,,red d,ddd0000,Semantic adjectives are not verbs; demonstrative is closer to noun than adjective (both occur on the same side of the noun),Table4
+6-1,Lg has numeral classifiers & Num closer to noun than Dem,,green s,s009900,Has numeral classifiers; numeral is closer to noun than demonstrative (both occur on the same side of the noun),Table5
+6-2,Lg has numeral classifiers & Num further from noun than Dem,,yellow s,sffff00,Has numeral classifiers; demonstrative is closer to noun than numeral (both occur on the same side of the noun),Table5
+6-3,Lg lacks numeral classifiers & Num closer to noun than Dem,,green,c009900,Lacks numeral classifiers; numeral is closer to noun than demonstrative (both occur on the same side of the noun),Table5
+6-4,Lg lacks numeral classifiers & Num further from noun than Dem,,yellow,cffff00,Lacks numeral classifiers; demonstrative is closer to noun than numeral (both occur on the same side of the noun),Table5
+7-1,Lg has numeral classifiers & Adj closer to noun than Num,,green s,s009900,Has numeral classifiers; adjective is closer to noun than numeral (both occur on the same side of the noun),Table6
+7-2,Lg has numeral classifiers & Adj further from noun than Num,,yellow s,sffff00,Has numeral classifiers; numeral is closer to noun than adjective (both occur on the same side of the noun),Table6
+7-3,Lg lacks numeral classifiers & Adj closer to noun than Num,,green,c009900,Lacks numeral classifiers; adjective is closer to noun than numeral (both occur on the same side of the noun),Table6
+7-4,Lg lacks numeral classifiers & Adj further from noun than Num,,yellow,cffff00,Lacks numeral classifiers; numeral is closer to noun than adjective (both occur on the same side of the noun),Table6
+8-1,Adj is verb & AdjN,,yellow ,cffff00,Semantic adjective is verb and precedes noun,Table7
+8-2,Adj is verb & NAdj,,purple ,c990099,Semantic adjective is verb and follows noun,Table7
+8-3,Adj is not verb & AdjN,,yellow d,dffff00,Semantic adjective is not verb and precedes noun,Table7
+8-4,Adj is not verb & NAdj,,purple d,d990099,Semantic adjective is not verb and follows noun,Table7
+9-1,Lg has numeral classifiers & Num and Dem occur on same side of noun,,green s,s009900,Has numeral classifiers; numeral and demonstrative occur on same side of noun,Table8
+9-2,Lg has numeral classifiers & Num and Dem occur on different sides of noun,,yellow s,sffff00,Has numeral classifiers; numeral and demonstrative occur on opposite side of noun,Table8
+9-3,Lg lacks numeral classifiers & Num and Dem occur on same side of noun,,green,c009900,Lacks numeral classifiers; numeral and demonstrative occur on same side of noun,Table8
+9-4,Lg lacks numeral classifiers & Num and Dem occur on different sides of noun,,yellow,cffff00,Lacks numeral classifiers; numeral and demonstrative on different sides of noun,Table8
+10-1,Lg has numeral classifiers & Num and Adj occur on same side of noun,,green s,s009900,Language has numeral classifiers and adjective and numeral occur on same side of noun,Table9
+10-2,Lg has numeral classifiers & Num and Adj occur on different sides of noun,,yellow s,sffff00,Language has numeral classifiers and adjective and numeral occur on opposite sides of noun,Table9
+10-3,Lg lacks numeral classifiers & Num and Adj occur on same side of noun,,green,c009900,Language lacks numeral classifiers and adjective and numeral occur on same side of noun,Table9
+10-4,Lg lacks numeral classifiers & Num and Adj occur on different sides of noun,,yellow,cffff00,Language lacks numeral classifiers and adjective and numeral occur on opposite sides of noun,Table9
+11-1,Adjs are not verbs & RelN & AdjN,,yellow d,dffff00,Semantic adjective and relative clause both precede noun (and semantic adjective is not a verb),Table10
+11-2,Adjs are not verbs & RelN & NAdj,,blue d,d0000dd,Semantic adjective follows noun and relative clause precedes noun (and semantic adjective is not a verb),Table10
+11-3,Adjs are not verbs & NRel & AdjN,,orange d,dff6600,Semantic adjective precedes noun and relative clause follows noun (and semantic adjective is not a verb),Table10
+11-4,Adjs are not verbs & NRel & NAdj,,purple d,d990099,Semantic adjective and relative clause both follow noun (and semantic adjective is not a verb),Table10
+12-1,Adj is verb & AdjN & NumN,,yellow ,cffff00,Semantic adjective is verb; adjective and numeral both precede noun,Table13
+12-2,Adj is verb & AdjN & NNum,,orange,cff6600,Semantic adjective is verb; adjective precedes noun; and numeral follows noun,Table13
+12-3,Adj is verb & NAdj & NumN,,blue,c0000dd,Semantic adjective is verb; adjective follows noun; and numeral precedes noun,Table13
+12-4,Adj is verb & NAdj & NNum,,purple ,c990099,Semantic adjective is verb; adjective and numeral both follow noun,Table13
+12-5,Adj is not verb & AdjN & NumN,,yellow d,dffff00,Semantic adjective not verb; adjective and numeral both precede noun,Table13
+12-6,Adj is not verb & AdjN & NNum,,orange d,dff6600,Semantic adjective not verb; adjective precedes noun; and numeral follows noun,Table13
+12-7,Adj is not verb & NAdj & NumN,,blue d,d0000dd,Semantic adjective not verb; adjective follows noun; and numeral precedes noun,Table13
+12-8,Adj is not verb & NAdj & NNum,,purple d,d990099,Semantic adjective not verb; adjective and numeral both follow noun,Table13
