@@ -44,7 +44,7 @@ class Dataset(BaseDataset):
     def cmd_makecldf(self, args):
         args.writer.cldf.add_component('ParameterTable')
         args.writer.cldf.add_component('LanguageTable', 'Genus', 'Family')
-        args.writer.cldf.add_component('CodeTable')
+        args.writer.cldf.add_component('CodeTable', 'Map_Icon')
         args.writer.cldf.add_sources(parse_string(self.raw_dir.read('sources.bib'), 'bibtex'))
 
         etc_parameters = {
@@ -67,6 +67,7 @@ class Dataset(BaseDataset):
                 Name=row['Name'],
                 Description=row['Description'],
                 Parameter_ID=row['Parameter_ID'],
+                Map_Icon=row['Map_Icon'],
                 # FIXME: add abbr!
             ))
             codes[row['Parameter_ID']][row['Name']] = row['ID']
