@@ -65,7 +65,7 @@ class Dataset(BaseDataset):
             args.writer.objects['CodeTable'].append(dict(
                 ID=row['ID'],
                 Name=row['Name'],
-                Description=row['Description'],
+                # Description=row['Description'],
                 Parameter_ID=row['Parameter_ID'],
                 Map_Icon=row['Map_Icon'],
                 # FIXME: add abbr!
