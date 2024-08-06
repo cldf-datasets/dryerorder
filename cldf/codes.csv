@@ -17,43 +17,43 @@ ID,Parameter_ID,Name,Description,Map_Icon
 1-16,Table1,Dem-A-Num-N,,sff6600
 1-17,Table1,Num-Dem-A-N,,cffffff
 1-18,Table1,N-Num-Dem-A,,dcccccc
-4-1,Table3,Adj is verb & Adj closer to noun than Num,Semantic adjectives are verbs; adjective is closer to noun than numeral (both occur on the same side of the noun),c0000dd
-4-2,Table3,Adj is verb & Adj further from noun than Num,Semantic adjectives are verbs; numeral is closer to noun than adjective (both occur on the same side of the noun),cdd0000
-4-3,Table3,Adj is not verb & Adj closer to noun than Num,Semantic adjectives are not verbs; adjective is closer to noun than numeral (both occur on the same side of the noun),d0000dd
-4-4,Table3,Adj is not verb & Adj further from noun than Num,Semantic adjectives are not verbs; numeral is closer to noun than adjective (both occur on the same side of the noun),ddd0000
-5-1,Table4,Adj is verb & Adj closer to noun than Dem,Semantic adjectives are verbs; adjective is closer to noun than demonstrative (both occur on the same side of the noun),c0000dd
-5-2,Table4,Adj is verb & Adj further from noun than Dem,Semantic adjectives are verbs; demonstrative is closer to noun than adjective (both occur on the same side of the noun),cdd0000
-5-3,Table4,Adj is not verb & Adj closer to noun than Dem,Semantic adjectives are not verbs; adjective is closer to noun than demonstrative (both occur on the same side of the noun),d0000dd
-5-4,Table4,Adj is not verb & Adj further from noun than Dem,Semantic adjectives are not verbs; demonstrative is closer to noun than adjective (both occur on the same side of the noun),ddd0000
-6-1,Table5,Lg has numeral classifiers & Num closer to noun than Dem,Has numeral classifiers; numeral is closer to noun than demonstrative (both occur on the same side of the noun),s009900
-6-2,Table5,Lg has numeral classifiers & Num further from noun than Dem,Has numeral classifiers; demonstrative is closer to noun than numeral (both occur on the same side of the noun),sffff00
-6-3,Table5,Lg lacks numeral classifiers & Num closer to noun than Dem,Lacks numeral classifiers; numeral is closer to noun than demonstrative (both occur on the same side of the noun),c009900
-6-4,Table5,Lg lacks numeral classifiers & Num further from noun than Dem,Lacks numeral classifiers; demonstrative is closer to noun than numeral (both occur on the same side of the noun),cffff00
-7-1,Table6,Lg has numeral classifiers & Adj closer to noun than Num,Has numeral classifiers; adjective is closer to noun than numeral (both occur on the same side of the noun),s009900
-7-2,Table6,Lg has numeral classifiers & Adj further from noun than Num,Has numeral classifiers; numeral is closer to noun than adjective (both occur on the same side of the noun),sffff00
-7-3,Table6,Lg lacks numeral classifiers & Adj closer to noun than Num,Lacks numeral classifiers; adjective is closer to noun than numeral (both occur on the same side of the noun),c009900
-7-4,Table6,Lg lacks numeral classifiers & Adj further from noun than Num,Lacks numeral classifiers; numeral is closer to noun than adjective (both occur on the same side of the noun),cffff00
-8-1,Table7,Adj is verb & AdjN,Semantic adjective is verb and precedes noun,cffff00
-8-2,Table7,Adj is verb & NAdj,Semantic adjective is verb and follows noun,c990099
-8-3,Table7,Adj is not verb & AdjN,Semantic adjective is not verb and precedes noun,dffff00
-8-4,Table7,Adj is not verb & NAdj,Semantic adjective is not verb and follows noun,d990099
-9-1,Table8,Lg has numeral classifiers & Num and Dem occur on same side of noun,Has numeral classifiers; numeral and demonstrative occur on same side of noun,s009900
-9-2,Table8,Lg has numeral classifiers & Num and Dem occur on different sides of noun,Has numeral classifiers; numeral and demonstrative occur on opposite side of noun,sffff00
-9-3,Table8,Lg lacks numeral classifiers & Num and Dem occur on same side of noun,Lacks numeral classifiers; numeral and demonstrative occur on same side of noun,c009900
-9-4,Table8,Lg lacks numeral classifiers & Num and Dem occur on different sides of noun,Lacks numeral classifiers; numeral and demonstrative on different sides of noun,cffff00
-10-1,Table9,Lg has numeral classifiers & Num and Adj occur on same side of noun,Language has numeral classifiers and adjective and numeral occur on same side of noun,s009900
-10-2,Table9,Lg has numeral classifiers & Num and Adj occur on different sides of noun,Language has numeral classifiers and adjective and numeral occur on opposite sides of noun,sffff00
-10-3,Table9,Lg lacks numeral classifiers & Num and Adj occur on same side of noun,Language lacks numeral classifiers and adjective and numeral occur on same side of noun,c009900
-10-4,Table9,Lg lacks numeral classifiers & Num and Adj occur on different sides of noun,Language lacks numeral classifiers and adjective and numeral occur on opposite sides of noun,cffff00
-11-1,Table10,Adjs are not verbs & RelN & AdjN,Semantic adjective and relative clause both precede noun (and semantic adjective is not a verb),dffff00
-11-2,Table10,Adjs are not verbs & RelN & NAdj,Semantic adjective follows noun and relative clause precedes noun (and semantic adjective is not a verb),d0000dd
-11-3,Table10,Adjs are not verbs & NRel & AdjN,Semantic adjective precedes noun and relative clause follows noun (and semantic adjective is not a verb),dff6600
-11-4,Table10,Adjs are not verbs & NRel & NAdj,Semantic adjective and relative clause both follow noun (and semantic adjective is not a verb),d990099
-12-1,Table13,Adj is verb & AdjN & NumN,Semantic adjective is verb; adjective and numeral both precede noun,cffff00
-12-2,Table13,Adj is verb & AdjN & NNum,Semantic adjective is verb; adjective precedes noun; and numeral follows noun,cff6600
-12-3,Table13,Adj is verb & NAdj & NumN,Semantic adjective is verb; adjective follows noun; and numeral precedes noun,c0000dd
-12-4,Table13,Adj is verb & NAdj & NNum,Semantic adjective is verb; adjective and numeral both follow noun,c990099
-12-5,Table13,Adj is not verb & AdjN & NumN,Semantic adjective not verb; adjective and numeral both precede noun,dffff00
-12-6,Table13,Adj is not verb & AdjN & NNum,Semantic adjective not verb; adjective precedes noun; and numeral follows noun,dff6600
-12-7,Table13,Adj is not verb & NAdj & NumN,Semantic adjective not verb; adjective follows noun; and numeral precedes noun,d0000dd
-12-8,Table13,Adj is not verb & NAdj & NNum,Semantic adjective not verb; adjective and numeral both follow noun,d990099
+4-1,Table3,Adj is verb & Adj closer to noun than Num,,c0000dd
+4-2,Table3,Adj is verb & Adj further from noun than Num,,cdd0000
+4-3,Table3,Adj is not verb & Adj closer to noun than Num,,d0000dd
+4-4,Table3,Adj is not verb & Adj further from noun than Num,,ddd0000
+5-1,Table4,Adj is verb & Adj closer to noun than Dem,,c0000dd
+5-2,Table4,Adj is verb & Adj further from noun than Dem,,cdd0000
+5-3,Table4,Adj is not verb & Adj closer to noun than Dem,,d0000dd
+5-4,Table4,Adj is not verb & Adj further from noun than Dem,,ddd0000
+6-1,Table5,Lg has numeral classifiers & Num closer to noun than Dem,,s009900
+6-2,Table5,Lg has numeral classifiers & Num further from noun than Dem,,sffff00
+6-3,Table5,Lg lacks numeral classifiers & Num closer to noun than Dem,,c009900
+6-4,Table5,Lg lacks numeral classifiers & Num further from noun than Dem,,cffff00
+7-1,Table6,Lg has numeral classifiers & Adj closer to noun than Num,,s009900
+7-2,Table6,Lg has numeral classifiers & Adj further from noun than Num,,sffff00
+7-3,Table6,Lg lacks numeral classifiers & Adj closer to noun than Num,,c009900
+7-4,Table6,Lg lacks numeral classifiers & Adj further from noun than Num,,cffff00
+8-1,Table7,Adj is verb & AdjN,,cffff00
+8-2,Table7,Adj is verb & NAdj,,c990099
+8-3,Table7,Adj is not verb & AdjN,,dffff00
+8-4,Table7,Adj is not verb & NAdj,,d990099
+9-1,Table8,Lg has numeral classifiers & Num and Dem occur on same side of noun,,s009900
+9-2,Table8,Lg has numeral classifiers & Num and Dem occur on different sides of noun,,sffff00
+9-3,Table8,Lg lacks numeral classifiers & Num and Dem occur on same side of noun,,c009900
+9-4,Table8,Lg lacks numeral classifiers & Num and Dem occur on different sides of noun,,cffff00
+10-1,Table9,Lg has numeral classifiers & Num and Adj occur on same side of noun,,s009900
+10-2,Table9,Lg has numeral classifiers & Num and Adj occur on different sides of noun,,sffff00
+10-3,Table9,Lg lacks numeral classifiers & Num and Adj occur on same side of noun,,c009900
+10-4,Table9,Lg lacks numeral classifiers & Num and Adj occur on different sides of noun,,cffff00
+11-1,Table10,Adjs are not verbs & RelN & AdjN,,dffff00
+11-2,Table10,Adjs are not verbs & RelN & NAdj,,d0000dd
+11-3,Table10,Adjs are not verbs & NRel & AdjN,,dff6600
+11-4,Table10,Adjs are not verbs & NRel & NAdj,,d990099
+12-1,Table13,Adj is verb & AdjN & NumN,,cffff00
+12-2,Table13,Adj is verb & AdjN & NNum,,cff6600
+12-3,Table13,Adj is verb & NAdj & NumN,,c0000dd
+12-4,Table13,Adj is verb & NAdj & NNum,,c990099
+12-5,Table13,Adj is not verb & AdjN & NumN,,dffff00
+12-6,Table13,Adj is not verb & AdjN & NNum,,dff6600
+12-7,Table13,Adj is not verb & NAdj & NumN,,d0000dd
+12-8,Table13,Adj is not verb & NAdj & NNum,,d990099
