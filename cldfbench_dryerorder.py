@@ -48,7 +48,7 @@ class Dataset(BaseDataset):
         args.writer.cldf.add_sources(parse_string(self.raw_dir.read('sources.bib'), 'bibtex'))
 
         etc_parameters = {
-            parameter['ID']: parameter
+            parameter['ID']: {k: v.strip() for k, v in parameter.items()}
             for parameter in self.etc_dir.read_csv(
                 'parameters.csv', dicts=True)}
         for row in self.raw_dir.read_csv('parameters.csv', dicts=True):
