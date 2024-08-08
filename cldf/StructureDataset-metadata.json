@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/dryerorder",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-19-g3057fc6",
+            "dc:created": "v1.0-22-gf555bfe",
             "dc:title": "Repository"
         },
         {

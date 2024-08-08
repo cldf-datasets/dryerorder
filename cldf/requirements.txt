@@ -5,7 +5,7 @@ bibtexparser==2.0.0b7
 bs4==0.0.2
 certifi==2024.6.2
 cldfbench==1.14.0
--e git+https://github.com/cldf-datasets/dryerorder@3057fc6146a8230df2fedde0b6fb08cca87ff243#egg=cldfbench_dryerorder
+-e git+https://github.com/cldf-datasets/dryerorder@f555bfe96ab9a9504c7df3ffbc94a540cf5a7293#egg=cldfbench_dryerorder
 cldfcatalog==1.5.1
 cldfzenodo==2.1.1
 clldutils==3.22.2
