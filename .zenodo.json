@@ -9,6 +9,12 @@
     "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Dryer, M.S. (2018). On the order of demonstrative, numeral, adjective, and noun. Language 94(4), 798-833. doi:10.1353/lan.2018.0054.</p>\n</blockquote>",
     "communities": [
         {
+            "identifier": "cldf-datasets"
+        },
+        {
+            "identifier": "clld"
+        },
+        {
             "identifier": "crossgram"
         }
     ],
@@ -30,5 +36,8 @@
             "name": "Martin Haspelmath",
             "type": "Other"
         }
-    ]
+    ],
+    "license": {
+        "id": "CC-BY-4.0"
+    }
 }
