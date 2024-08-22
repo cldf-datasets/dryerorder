@@ -10,6 +10,8 @@ If you use these data please cite
 ## Description
 
 
+This dataset is licensed under a CC-BY-4.0 license
+
 Available online at https://doi.org/10.1353/lan.2018.0054
 
 
