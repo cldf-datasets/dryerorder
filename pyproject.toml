@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cldfbench_dryerorder"
+dependencies = ["cldfbench[glottolog]"]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+test = ["pytest-cldf"]
+
+[project.entry-points."cldfbench.dataset"]
+dryerorder = "cldfbench_dryerorder:Dataset"
+
+[tool.setuptools]
+py-modules = ["cldfbench_dryerorder"]
+include-package-data = true
+
+[tool.pytest.ini_options]
+testpaths = ["test.py"]
+addopts = "--cldf-metadata=cldf/StructureDataset-metadata.json"
