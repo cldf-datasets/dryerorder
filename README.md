@@ -1,5 +1,7 @@
 # On the order of demonstrative, numeral, adjective, and noun
 
+[![CLDF validation](https://github.com/cldf-datasets/dryerorder/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/dryerorder/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
