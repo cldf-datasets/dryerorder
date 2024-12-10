@@ -1,5 +1,6 @@
-import pathlib
 import collections
+import pathlib
+import re
 
 from clldutils.coordinates import Coordinates
 from clldutils.misc import slug
@@ -42,7 +43,14 @@ class Dataset(BaseDataset):
         pass
 
     def cmd_makecldf(self, args):
-        args.writer.cldf.add_component('ParameterTable')
+        args.writer.cldf.add_component(
+            'ParameterTable',
+            {
+                'name': 'Grammacodes',
+                'datatype': 'string',
+                'separator': ';',
+                'dc:extent': 'multivalued',
+            })
         args.writer.cldf.add_component('LanguageTable', 'Genus', 'Family')
         args.writer.cldf.add_component('CodeTable', 'Map_Icon')
         args.writer.cldf.add_sources(parse_string(self.raw_dir.read('sources.bib'), 'bibtex'))
@@ -54,10 +62,15 @@ class Dataset(BaseDataset):
         for row in self.raw_dir.read_csv('parameters.csv', dicts=True):
             parameter_id = row['ID']
             etc_parameter = etc_parameters.get(parameter_id) or {}
+            if (gcstr := etc_parameter.get('Grammacodes')):
+                grammacodes = re.split(r'\s*,\s*', gcstr)
+            else:
+                grammacodes = []
             args.writer.objects['ParameterTable'].append(dict(
                 ID=row['ID'],
                 Name=etc_parameter.get('Name') or row['ID'],
                 Description=etc_parameter.get('Description') or row['Description'],
+                Grammacodes=grammacodes,
             ))
 
         codes = collections.defaultdict(dict)
