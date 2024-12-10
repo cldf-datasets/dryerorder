@@ -16,13 +16,13 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/dryerorder",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-26-gee765a4",
+            "dc:created": "v1.1-1-g20059c8",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.0",
+            "dc:created": "v5.1",
             "dc:title": "Glottolog"
         }
     ],
@@ -171,6 +171,12 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#columnSpec",
                         "required": false,
                         "name": "ColumnSpec"
+                    },
+                    {
+                        "dc:extent": "multivalued",
+                        "datatype": "string",
+                        "separator": ";",
+                        "name": "Grammacodes"
                     }
                 ],
                 "primaryKey": [
